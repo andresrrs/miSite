@@ -329,9 +329,32 @@ footer {
   padding: 5px;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
   footer {
     width: 100%;
     text-align: center;
+  }
+}
+
+@media (min-width: 380px){
+  header{
+    width: 100%;
+    
+  }
+
+  .section-about{
+    width: 120%;
+  }
+
+  .section_contact{
+    width: 120%;
+  }
+
+  form{
+    width: 80%;
+  }
+
+  footer{
+    width: 120%;
   }
 }
