@@ -343,15 +343,15 @@ footer {
   }
 
   .section-about{
-    width: 120%;
+    width: 100%;
   }
 
   .section_contact{
-    width: 120%;
+    width: 100%;
   }
 
   form{
-    width: 350px;
+    width: 300px;
   }
 
   footer{
