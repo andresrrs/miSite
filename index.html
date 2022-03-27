@@ -8,6 +8,7 @@
     <title>Mi portafolio</title>
     <link rel="stylesheet" href="css/normalice.css">
     <link rel="stylesheet" href="css/estilos.css">
+
     <!--Fuentes -->
 
     <script src="https://kit.fontawesome.com/bfd7ad7e06.js" crossorigin="anonymous"></script>
@@ -74,30 +75,48 @@
 
         <section class="portafolio">
             <h1>portafolio</h1>
-            <article>
-                <div class="div-conten-img">
-                    <div class="div-image"><img
-                            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                            alt=""></div>
-                    <h3>Proyecto 1</h1>
 
-                        <p>Lorem ipsum dolor sit amet consectetur aab fugiat adipisci pariatuuri expedita. Lorem ipsum
-                            dolor sit amet consectetur aab fugiat adipisci pariatuuri expedita</p>
+            <div class="container-slider">
 
-                        <div class="btn">
-                            <a href="#">Ver mas</a>
-                        </div>
+                <div class="slider" id="slider">
+
+                    <div class="slider__section">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="" class="slider_img">
+                          <div class="container-p">
+                             <h3>Poryecto 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quasi consequatur rerum, placeat!</p>
+                          </div>  
+                    </div>
+
+                    <div class="slider__section">
+                        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+                            alt="" class="slider_img">
+                            <div class="container-p">
+                                <h3>Poryecto 2</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quasi consequatur rerum, placeat!</p>
+                            </div>  
+                    </div>
+
+                    <div class="slider__section">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="" class="slider_img">
+                            <div class="container-p">
+                                <h3>Poryecto 3</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quasi consequatur rerum, placeat!</p>
+                            </div>  
+                    </div>
+
                 </div>
 
-
-            </article>
+                <div class="slider__btn slider__btn--rigth" id="btn-right">&#62;</div>
+                <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+            </div>
 
         </section>
 
 
         <section id="2" class="section_contact">
-
-
 
             <form action="" class="form">
 
@@ -109,8 +128,6 @@
                 <textarea name="mensajes" id="" cols="30" rows="10" placeholder="Write a message here"></textarea>
                 <input class="btn" type="submit" value="Submit" id="boton">
             </form>
-
-
 
         </section>
 
@@ -129,6 +146,8 @@
             </div>
 
         </footer>
+
+        <script src="js/slider.js"></script>
 </body>
 
 </html>
