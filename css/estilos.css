@@ -263,7 +263,7 @@ span {
 
 .div-conten-img h3 {
   color: #fff;
-  margin: 10px;
+  margin: 20px auto 0;
   font-size: 1.3rem;
   font-weight: 300;
   letter-spacing: 3px;
@@ -280,10 +280,11 @@ span {
 .div-conten-img .btn {
   width: 50%;
   height: 30px;
-  margin: 15px auto;
+  margin: 15px auto 10px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
+  border: 1px solid red;
 }
 
 .btn a {
@@ -308,7 +309,7 @@ span {
 }
 
 .form {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
