@@ -307,6 +307,24 @@ span {
   right: 4px;
 }
 
+.div-a{
+  margin-top: 10px;
+  
+  display: flex;
+  justify-content: center;
+}
+.div-a a{
+  color: #222;
+  font-size: 18px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.div-a a:hover{
+  background-color: #0e76a8;
+  color: #fff;
+}
 
 /* Contact me*/
 .section_contact {
