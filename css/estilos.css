@@ -111,11 +111,11 @@ div .p {
 .section-about {
   width: 100%;
   height: 100vh;
-  padding-top: 70px;
+  padding-top: 60px;
   border: 1px solid rebeccapurple;
   background-color: #222;
   color: #fff;
-  display: flex;
+  border-bottom: 1px solid #fff;
 }
 
 .section-about article {
@@ -124,8 +124,8 @@ div .p {
 
 .info_profile {
   width: 80%;
-  height: 300px;
-  margin: 0 auto;
+  height: auto;
+  margin: 30px auto;
   text-align: center;
 }
 
@@ -144,7 +144,7 @@ div .p {
   color: #fff;
   text-transform: capitalize;
   position: relative;
-  top: 6px;
+  top: 15px;
   white-space: nowrap;
   border-right: 4px solid;
   width: 21ch;
@@ -165,13 +165,13 @@ div .p {
   }
 }
 
-.info_profile p {
+.info_profile .p4 {
   margin: 0;
   font-size: 1.2rem;
   line-height: 25px;
   position: relative;
-  top: 10px;
-  padding: 10px;
+  top: 23px;
+  padding: 10px 0;
 }
 
 .redes-sociales {
@@ -213,4 +213,66 @@ div .p {
 
 .redes-sociales ul li .linkedin:hover {
   background: #0e76a8;
+}
+
+/* Contact me*/
+.section_contact {
+  width: 100%;
+  height: 100vh;
+  background-color: #222;
+}
+
+.form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  position: relative;
+  top: 50px;
+  background: rgb(113, 121, 119, .1);
+}
+
+.form h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.form .inputs,textarea{
+  width: 100%;
+  margin-bottom: 10px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  font-weight: 1.5rem;
+}
+
+.form .inputs{
+  padding: 5px;
+  color: #fff;
+}
+.form textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+.form .btn{
+  width: 100%;
+  padding: 5px;
+  background: #fff;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+}
+
+.form .btn:hover{
+    background-color: #0e76a8;
+    color: #fff;
 }
