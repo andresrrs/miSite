@@ -238,9 +238,10 @@ span {
   background: rgb(113, 121, 119, 0.1);
   margin: 0 auto;
   overflow: hidden;
-  /* border: 1px solid red; */
+  border-radius: 10px;
   position: relative;
   text-align: center;
+  padding: 5px;
 }
 
 .slider{
@@ -262,7 +263,6 @@ span {
 }
 
 .container-p{
-  /* border: 1px solid rebeccapurple; */
   margin: 10px;
   text-align: center;
 }
