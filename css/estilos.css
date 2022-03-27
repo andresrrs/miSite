@@ -284,7 +284,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center; 
-  border: 1px solid red;
+  
 }
 
 .btn a {
@@ -376,7 +376,7 @@ footer {
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .div-footer {
