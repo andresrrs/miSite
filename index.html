@@ -129,15 +129,15 @@
 
         <section id="2" class="section_contact">
 
-            <form action="" class="form">
+            <form action="" class="form" method="post">
 
                 <h2>Contact me</h2>
-                <input class="inputs" type="text" placeholder="Name">
-                <input class="inputs" type="text" placeholder="Email">
-                <input class="inputs" type="text" placeholder="Phone">
+                <input class="inputs" type="text" placeholder="Name" id="name">
+                <input class="inputs" type="text" placeholder="Email" id="email">
+                <input class="inputs" type="text" placeholder="Phone" id="phone">
 
-                <textarea name="mensajes" id="" cols="30" rows="10" placeholder="Write a message here"></textarea>
-                <input class="btn" type="submit" value="Submit" id="boton">
+                <textarea name="mensajes" id="message" cols="30" rows="10" placeholder="Write a message here"></textarea>
+                <input  class="btn" type="submit" value="Submit" id="boton enviarEmail">
             </form>
 
         </section>
@@ -159,6 +159,7 @@
         </footer>
 
         <script src="js/slider.js"></script>
+        <script src="js/submitEmail.js"></script>
 </body>
 
 </html>
