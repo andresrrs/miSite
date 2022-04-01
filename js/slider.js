@@ -32,11 +32,11 @@ let sliderSectionLast  = sliderSection[sliderSection.length - 1];
 
 
 btnRight.addEventListener('click',function(){
-    nextRight();
+    nextLeft();
 });
 
 btnLetf.addEventListener('click',function(){
-    nextLeft();
+    nextRight();
 });
 
 setInterval(function(){

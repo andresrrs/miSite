@@ -304,7 +304,6 @@ span {
 }
 
 .slider__btn--rigth{
-  top:44%;
   right: 5px;
 }
 
@@ -335,11 +334,12 @@ span {
 
 .form {
   width: 90%;
+  position: relative;
+  top: 45px;
+  display: block;
   margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
-  position: relative;
-  top: 45px;
   background: rgb(113, 121, 119, 0.1);
 }
 
@@ -401,7 +401,6 @@ footer {
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  position: absolute;
 }
 
 .div-footer {
