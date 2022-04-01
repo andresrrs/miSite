@@ -373,6 +373,7 @@ textarea {
   max-width: 100%;
   color: #fff;
   padding: 5px;
+  z-index: 100;
   overflow: hidden;
 }
 
