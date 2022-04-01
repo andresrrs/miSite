@@ -334,6 +334,7 @@ span {
 
 .form {
   width: 90%;
+  min-height: 90vh;
   position: relative;
   top: 45px;
   display: block;
@@ -369,7 +370,6 @@ textarea {
 }
 .form textarea {
   min-height: 50px;
-  max-height: 200px;
   max-width: 100%;
   color: #fff;
   padding: 5px;
