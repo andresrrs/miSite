@@ -13,15 +13,15 @@
 
     <script src="https://kit.fontawesome.com/bfd7ad7e06.js" crossorigin="anonymous"></script>
 
-   
+
 
 </head>
 
 <body>
 
-    <header>
-        <div class="code">
-            <p class="p">
+    <header class="header">
+        <div class="conten code">
+            <p class="conten__paragraph">
                 <>
             </p>
         </div>
@@ -31,20 +31,16 @@
 
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
-                <i class="menu-icono "><img src="img/logoMenu.png" alt=""></i>
+                <i class="menu-icono"><img class="menu-img__image" src="img/logoMenu.png" alt="menu hamburger"></i>
             </label>
 
-
-            <ul>
-                <li><a href="#1">Home</a></li>
-                <li><a href="#">about me</a></li>
-                <li><a href="#">portafolio</a></li>
-                <li><a href="#">contact</a></li>
-                <li><a href="docs/CV_ANDRES_RINCON_P.pdf" download>Descargar CV</a></li>
-                <button class="switch" id="switch">
-                    <span><i class="fas fa-sun"></i></span>
-                    <span><i class="fas fa-moon"></i></span>
-                </button>
+            <ul class="nav-menu__ul">
+                <li class="nav-menu__li"><a class="nav-menu__a" href="#1">Inicio</a></li>
+                <li class="nav-menu__li"><a class="nav-menu__a" href="#">Sobre mi</a></li>
+                <li class="nav-menu__li"><a class="nav-menu__a" href="#">portafolio</a></li>
+                <li class="nav-menu__li"><a class="nav-menu__a" href="#">contacto</a></li>
+                <li class="nav-menu__li"><a class="nav-menu__a" href="docs/CV_ANDRES_RINCON_P.pdf" download>Descargar
+                        CV</a></li>
             </ul>
         </nav>
     </header>
@@ -53,35 +49,37 @@
 
         <section id="1" class="section-about">
 
-            <article>
+            <aside class="section-about__conten-aside">
 
-                <div class="info_profile">
+                <div class="profile">
 
-                    <h1>¡Hey!, i'm <br> Andrés rincón</h1>
-                    <span class="p1">frontend - developer</span>
-                    <p class="p4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iure perferendis
+                    <h1 class="profile__h1">¡Hey!, i'm <br> Andrés rincón</h1>
+                    <span class="profile__span">frontend - developer</span>
+                    <p class="profile__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iure
+                        perferendis
                         veritatis
                         qui molestias, minima exercitationem earum sequi quisquam eligendi.</p>
 
                 </div>
 
-                <div class="redes-sociales">
-                    <ul>
-                        <li><a href="https://github.com/iandresrs" target="_blank" class="github"><i
-                                    class="fa-brands fa-github"></i></a></li>
-                        <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/iandresrinconrs/" target="_blank" class="linkedin"><i
-                                    class="fab fa-linkedin-in"></i></a></li>
+                <div class="social-media">
+                    <ul class="social-media__ul">
+                        <li class="social-media__li"><a href="https://github.com/iandresrs" target="_blank"
+                                class="social-media__a github"><i class="fa-brands fa-github"></i></a></li>
+                        <li class="social-media__li"><a href="#" class="social-media__a instagram"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="social-media__li"><a href="https://www.linkedin.com/in/iandresrinconrs/"
+                                target="_blank" class="social-media__a linkedin"><i class="fab fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
 
-            </article>
+            </aside>
 
         </section>
 
 
-        <section class="portafolio">
-            <h1>portafolio</h1>
+        <section class="section-briefcase">
+            <h1 class="briefcase__title">portafolio</h1>
 
             <div class="container-slider">
 
@@ -139,32 +137,32 @@
 
         <section id="2" class="section_contact">
 
-            <form action="js/submitEmail.js" class="form" method="POST" enctype="text/plain">
+            <form action="" class="form" method="POST" enctype="text/plain">
 
-                <h2>Contact</h2>
-                <input class="inputs" type="text" placeholder="Name" id="name" required>
-                <input class="inputs" type="email" placeholder="Email" id="email" required>
-                <input class="inputs" type="tel" maxlength="10" placeholder="Phone" id="phone" required>
+                <h2 class="form__title">Contact</h2>
+                <input class="form_input" type="text" placeholder="Name" id="name" required>
+                <input class="form_input" type="email" placeholder="Email" id="email" required>
+                <input class="form_input" type="tel" maxlength="10" placeholder="Phone" id="phone" required>
 
-                <textarea name="mensajes" id="message" cols="30" rows="10" placeholder="Write a message here"
+                <textarea class="form__textarea" name="mensajes" id="message" cols="30" rows="10" placeholder="Write a message here"
                     required></textarea>
-                <input class="btn" type="submit" value="Submit" id="boton enviarEmail">
+                <input class="form__btn form_input" type="submit" value="Submit" id="boton enviarEmail">
             </form>
 
         </section>
 
         </main>
-        <footer>
+        <footer class="footer">
             <div class="div-footer">
                 <p>andrés rincón &copy copyrigth 2022</p>
             </div>
 
-            <div class="redes-sociales-footer">
-                <ul>
-                    <li><a href="https://github.com/iandresrs" target="_blank" class="github"><i
+            <div class="social">
+                <ul class="social__ul">
+                    <li class="social__li"><a href="https://github.com/iandresrs" target="_blank" class="social__a github"><i
                                 class="fa-brands fa-github"></i></a></li>
-                    <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/iandresrinconrs/" target="_blank" class="linkedin"><i
+                    <li class="social__li"><a href="#" class="social__a instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li class="social__li"><a href="https://www.linkedin.com/in/iandresrinconrs/" target="_blank" class="social__a linkedin"><i
                                 class="fab fa-linkedin-in"></i></a></li>
                 </ul>
             </div>
