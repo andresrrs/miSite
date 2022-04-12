@@ -36,17 +36,6 @@ body {
   z-index: 100;
 }
 
-.menu-icono,
-#check {
-  display: none;
-}
-
-.menu-img__image {
-  width: 30px;
-  height: 30px;
-  border-radius: 2px;
-}
-
 .nav-menu{
   display: flex;
 }
@@ -71,15 +60,25 @@ body {
   transition: all 0.7s;
 }
 
+.btn-menu__img{
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+}
+
+#btn-menu,
+.btn-menu__i{
+  display: none;
+}
 
 /*Menu responsivo */
 @media (max-width: 768px) {
   
-  .checkbtn {
+  .btn-menu__label {
     display: block;
   }
 
-  .menu-icon {
+  .btn-menu__i {
     display: block;
     position: fixed;
     top: 15px;
@@ -90,9 +89,9 @@ body {
   .nav-menu__ul {
     display: block;
     position: fixed;
-    top: 65px;
+    top: 62px;
     left: -100%;
-    background: #fff;
+    background: #333;
     width: 100%;
     height: 100vh;
     right: 0;
@@ -106,7 +105,7 @@ body {
     margin: 0;
   }
 
-  #check:checked~ul {
+  #btn-menu:checked~ul {
     left: 0;
   }
 }
@@ -333,9 +332,9 @@ body {
 }
 
 /* Contact me*/
-.section_contact {
+.section-contact {
   width: 100%;
-  height: 540px;
+  height: 570px;
   background-color: #fff;
   display: inline-flex;
 }
@@ -348,7 +347,7 @@ body {
   margin-top: 20px;
   background: rgb(113, 121, 119, 0.1);
   border-radius: 10px;
-
+  
 }
 
 .form__title {
